@@ -97,7 +97,15 @@ nav {
 
 #espaco1 {
     width: 100%;
-    height: 10vh;
+    height: auto;
+    background-color: #cacaca;
+    display: flex;
+    flex-direction: row;
+}
+
+#espaco2 {
+    width: 100%;
+    height: 3vh;
     background-color: #ffffff;
 }
 
@@ -118,6 +126,7 @@ main {
 #carousel img{
     width: 100%;
     height: 100%;
+    
 }
 
 button span {
@@ -210,7 +219,7 @@ button span {
 
 #opcoes {
     width: 100%;
-    height: 55vh;
+    height: auto;
     background-color: #cacaca;
     display: flex;
     flex-direction: row;
@@ -248,7 +257,7 @@ button span {
 
 #o11 {
     width: 50%;
-    height: 25vh;
+    height: auto;
     background-color: #9db8ff;
     margin-bottom: 20px;
     margin-top: 20px; 
@@ -268,7 +277,7 @@ button span {
 
 #o12 {
     width: 50%;
-    height: 25vh;
+    height: auto;
     background-color: #d8d7d7;
     margin-bottom: 20px;
     margin-top: 20px;
@@ -285,7 +294,7 @@ button span {
 
 #o31 {
     width: 50%;
-    height: 25vh;
+    height: auto;
     background-color: #d8d07c;
     margin-bottom: 20px;
     margin-top: 20px;
@@ -302,7 +311,7 @@ button span {
 
 #o32 {
     width: 50%;
-    height: 25vh;
+    height: auto;
     background-color: #9db8ff;
     margin-bottom: 20px;
     margin-top: 20px;
@@ -319,7 +328,7 @@ button span {
 
 #o21 {
     width: 50%;
-    height: 25vh;
+    height: auto;
     background-color: #ff91dc;
     margin-bottom: 20px;
     margin-top: 20px;
@@ -336,7 +345,7 @@ button span {
 
 #o22 {
     width: 50%;
-    height: 25vh;
+    height: auto;
     background-color: #afafaf;
     margin-bottom: 20px;
     margin-top: 20px;
@@ -416,22 +425,42 @@ button span {
 
 @media only screen and (max-width: 800px) {
     
+    nav {
+        flex-direction: column;
+        height: auto;
+    }
+
+    #espaco1 {
+        flex-direction: column;
+        height: auto;
+    }
+
     #l1 img {
-        width: 30%;
+        width: 10%;
     }
     #l1 a {
         font-size: 1.4em;
     }
 
     #menu a {
-        font-size: 0.7em;
+        font-size: 0.9em;
+        font-weight: 600;
     }
+
+    #menu {
+        background-color: #afafaf;
+    }
+
+
 
     #frase h1 {
         font-size: 1.4em;
     }
     #texto p{
         font-size: 1.3em;
+    }
+    #texto a {
+        font-size: 1.4em;
     }
     
     #carousel {
@@ -440,37 +469,47 @@ button span {
 
 
     #contato img {
-        width: 20vw;
+        width: 30vw;
         height: 20vh;
     }
 
     #opcoes {
-        height: 70vh;
+        height: auto;
+    }
+    #opcoes h1 {
+        font-size: 1em;
     }
 
     #o11 {
-        width: 70%;
+        width: 100%;
         height: 25vh;
     }
     #o12 {
-        width: 70%;
+        width: 100%;
         height: 25vh;
     }
     #o21 {
-        width: 70%;
+        width: 100%;
         height: 25vh;
     }
     #o22 {
-        width: 70%;
+        width: 100%;
         height: 25vh;
     }
     #o31 {
-        width: 70%;
+        width: 100%;
         height: 25vh;
     }
     #o32 {
-        width: 70%;
+        width: 100%;
         height: 25vh;
+    }
+
+    #m2 {
+        flex-direction: column;
+    }
+    #contato {
+        width: 100%;
     }
 
     #f1 {

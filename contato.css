@@ -76,8 +76,8 @@ nav {
     font-size: 1.2em;
 }
 
-#s {
-    background-color: rgba(255, 251, 0, 0.28);
+#c {
+    background-color: #00000036;
 }
 
 #menu a:hover {
@@ -114,127 +114,185 @@ nav {
     background-color: #ffffff;
 }
 
+
 main {
     width: 100%;
     height: auto;
     display: flex;
     flex-direction: row;
 }
-
-main h1 {
-    font-size: 1.5vw;
-    font-family:'Arvo', sans-serif;;
-    color: #ffffff;
-    font-weight: bold;
-    text-align: center;
+main img {
+    width: 20vw;
+    height: 20vh;
 }
-main p {
+
+#if {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    background-color: #eaeaea;
+}
+
+#tw {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    background-color: #eaeaea;
+}
+
+#insta {
+    width: 90%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    background-color: rgba(255, 0, 153, 0.281);
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+#insta h1 {
+    font-family:'Arvo', serif;
+    font-weight: lighter;
     color: #ffffff;
-    font-size: 1vw;
-    font-family:'Arvo', sans-serif;;
-    font-weight: 400;
-    text-align: center;
+    font-size: 1.2em;
     margin-top: 5px;
 }
 
-#ar {
+#face {
+    width: 90%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    background-color: rgba(0, 0, 255, 0.32);
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+#face h1 {
+    font-family:'Arvo', serif;
+    font-weight: lighter;
+    color: #ffffff;
+    font-size: 1.2em;
+    margin-top: 5px;
+}
+
+#tik {
+    width: 90%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    background-color: rgba(0, 0, 0, 0.368);
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+#tik h1 {
+    font-family:'Arvo', serif;
+    font-weight: lighter;
+    color: #000000;
+    font-size: 1.2em;
+    margin-top: 5px;
+}
+
+#what {
+    width: 90%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    background-color: rgba(186, 186, 186, 0.386);
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+#what h1 {
+    font-family:'Arvo', serif;
+    font-weight: lighter;
+    color: #000000;
+    font-size: 1.2em;
+    margin-top: 5px;
+}
+
+#espaco3 {
+    width: 100%;
+    height: 2vh;
+    background-color: #ffffff;
+}
+
+#contato {
     width: 100%;
     height: auto;
+    background-color: #cacaca;
     display: flex;
     flex-direction: row;
 }
 
-#azul {
+#contato1 {
     width: 100%;
     height: auto;
-    background-color: rgba(0, 0, 255, 0.357);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    background-color: #cacaca;
+    padding: 5px;
 }
-#azul div {
-    width: 60%;
-    height: auto;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    background-color: blue;
-    border-radius: 10px;
+#contato1 p {
+    font-family:'Arvo', serif;
+    font-weight: lighter;
+    color: #ffffff;
+    font-size: 1.5em;
+    text-decoration: none;
 }
-#azul img {
-    width: 10vw;
+
+#contato2 img {
+    width: 15vw;
     height: 15vh;
-    border-radius: 10px;
-    display: flex;
-    margin-top: 5px;
+    margin-top: 90px;
+    margin-bottom: 5px;
+}
+#contato2 a {
+    font-family:'Arvo', serif;
+    font-weight: lighter;
+    color: #ffffff;
+    font-size: 3em;
+    padding: 5px;
+    text-decoration: none;
 }
 
-
-#rosa {
+#circulos {
     width: 100%;
     height: auto;
-    background-color: rgba(255, 0, 153, 0.367);
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
-}
-#rosa div {
-    width: 60%;
-    height: auto;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    background-color: rgb(255, 0, 153);
-    border-radius: 10px;
-}
-#rosa img {
-    width: 10vw;
-    height: 15vh;
-    border-radius: 10px;
-    display: flex;
-    margin-top: 5px;
+    background-color: #afafaf;
 }
 
-
-#amarelo {
-    width: 50%;
-    height: auto;
-    background-color: rgba(255, 251, 0, 0.325);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+#circulos img {
+    width: 14vw;
+    height: 23vh;
+    border-radius: 200px;
 }
-#amarelo div {
-    width: 60%;
-    height: auto;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    background-color: rgb(255, 251, 0);
-    border-radius: 10px;
+#c1 {
+    margin-left: 10px;
 }
-#amarelo img {
-    width: 10vw;
-    height: 15vh;
-    border-radius: 10px;
-    display: flex;
-    margin-top: 5px;
+#c1 img {
+    border: solid 2px blue;
 }
-#amarelo p {
-    color: #000000;
-    font-size: 1vw;
-    font-family:'Arvo', sans-serif;;
-    font-weight: 400;
-    text-align: center;
-    margin-top: 5px;
+#c2 {
+    margin-left: 10px;
 }
-#amarelo h1 {
-    font-size: 1.5vw;
-    font-family:'Arvo', sans-serif;;
-    color: #000000;
-    font-weight: bold;
-    text-align: center;
+#c2 img {
+    border: solid 2px rgb(255, 0, 153);
+}
+#c3 {
+    margin-left: 10px;
+}
+#c3 img {
+    border: solid 2px yellow;
+}
+#circulos h1 {
+    font-family:'Arvo', serif;
+    font-weight: lighter;
+    color: #ffffff;
+    font-size: 1.5em;
 }
 
-
-#espaco3 {
+#espaco4 {
     width: 100%;
     height: 4vh;
     background-color: #ffffff;
@@ -294,7 +352,6 @@ main p {
     width: 3vw;
     height: 5vh;
 }
-
 @media only screen and (max-width: 800px) {
     
     nav {
@@ -322,46 +379,49 @@ main p {
     #menu {
         background-color: #afafaf;
         
-    }
+    }   
 
     main {
         flex-direction: column;
     }
+    main img {
+        width: 35vw;
+        height: 16vh;
+    }
     main h1 {
         font-size: 1.2em;
     }
-    main p {
-        font-size: 0.9em;
-    }
 
-    #ar {
+    #contato {
         flex-direction: column;
     }
 
-    #azul img {
-        width: 30vw;
-        height: 20vh;
+    #contato1 {
+        display: flex;
+        flex-direction: row;
+    }
+    #contato1 p {
+        font-size: 1.3em;
     }
 
-    #rosa img {
-        width: 30vw;
-        height: 20vh;
+    #contato2 a {
+        font-size: 1.3em;
+        
+    }
+    #contato2 img {
+        width: 20vw;
+        height: 10vh;
+        margin-top: 60px;
+        margin-left: 10px;
     }
 
-    #amarelo img {
-        width: 30vw;
+    #circulos img {
+        width: 27vw;
         height: 20vh;
     }
-    #amarelo {
-        width: 100%;
-    }
-    #amarelo h1 {
+    #circulos h1 {
         font-size: 1.2em;
-    } 
-    #amarelo p {
-        font-size: 0.9em;
     }
-
 
     #f1 {
         width: 100%;
@@ -382,5 +442,4 @@ main p {
         width: 100%;
         font-size: 0.7em;
     }
-   
 }

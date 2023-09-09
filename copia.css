@@ -208,18 +208,26 @@ button span {
     background-color: #afafaf;
 }
 
-#contato p {
+#contato a {
     font-family:'Arvo', serif;
     font-weight: lighter;
     color: #ffffff;
     font-size: 1.2em;
-    padding: 5px;
+    text-decoration: none;
 }
 
-#contato img {
+#contato2 img {
     width: 15vw;
-    height: 25vh;
+    height: 15vh;
+    margin-top: 90px;
+}
+#contato2 a {
+    font-family:'Arvo', serif;
+    font-weight: lighter;
+    color: #ffffff;
+    font-size: 3em;
     padding: 5px;
+    text-decoration: none;
 }
 
 #opcoes {
@@ -497,8 +505,8 @@ button span {
     }
 
     #opcoes div {
-        width: 30vw;
-        height: 25vh;
+        width: auto;
+        height: auto;
     }
 
 
@@ -507,6 +515,14 @@ button span {
     }
     #contato {
         width: 100%;
+    }
+    #contato2 img {
+        width: 18vw;
+        height: 10vh;
+        margin-bottom: 50px;
+    }
+    #contato2 a {
+        font-size: 1.8em;
     }
 
     #f1 {
@@ -526,7 +542,7 @@ button span {
     }
     #f4 {
         width: 100%;
-        font-size: 0.8em;
+        font-size: 0.7em;
     }
 
 }

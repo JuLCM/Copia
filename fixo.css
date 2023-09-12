@@ -1,0 +1,136 @@
+* {
+    margin: 0 auto
+}
+
+/* azul:0, 11, 255 rosa:255, 0, 153 amarelo:255, 251, 0 branco:255, 255, 255 preto:0, 0, 0    position: fixed;
+    z-index: 10000; */
+
+header {
+    width: 100%;
+    height: 1vh;
+    background-color: #afafaf;
+    position: fixed;
+    z-index: 10000;
+}
+
+
+nav {
+    width: 100%;
+    height: auto;
+    background-color: #cacaca;
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    z-index: 1000;
+}
+
+#logo {
+    width: 100%;
+    height: auto;
+    background-color:#cacaca;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+  
+
+}
+
+#l1 img {
+    width: 10%;
+    height: 4vh;
+}
+
+#l1 a {
+    font-family:'Arvo', serif;
+    font-weight: lighter;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 1.7em;
+    font-weight: bold;
+    
+}
+
+#l1 {
+    width: 100%;
+    height: auto;
+    background-color: #cacaca;
+}
+
+#menu {
+    width: 100%;
+    height: auto;
+    background-color: #cacaca;
+    padding: 15px;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+}
+
+#menu a {
+    font-family:'Arvo', serif;
+    font-weight: lighter;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 1.2em;
+}
+
+
+#menu a:hover {
+    text-decoration: underline;
+}
+
+#h a{
+    color: rgb(0, 11, 255);
+}
+#p a{
+    color: rgb(255, 0, 153);
+}
+#s a{
+    color: rgb(255, 251, 0);
+}
+#se a{
+    color: rgb(255, 255, 255);
+}
+#c a{
+    color: rgb(0, 0, 0);
+}
+
+#espaco1 {
+    width: 100%;
+    height: auto;
+    background-color: #cacaca;
+    display: flex;
+    flex-direction: row;
+}
+
+@media only screen and (max-width: 800px) {
+    
+    nav {
+        flex-direction: column;
+        height: auto;
+    }
+
+    #espaco1 {
+        flex-direction: column;
+        height: auto;
+    }
+
+    #l1 img {
+        width: 10%;
+    }
+    #l1 a {
+        font-size: 1.4em;
+    }
+
+    #menu a {
+        font-size: 0.9em;
+        font-weight: 600;
+    }
+
+    #menu {
+        background-color: #afafaf;
+        
+    }  
+}
